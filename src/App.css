@@ -1,0 +1,210 @@
+.App {
+  /* text-align: center; */
+  justify-items: center;
+  background-color: rgb(245, 241, 241);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.container{
+  width: 500px;
+  /* background-color: red; */
+  text-align: left;
+}
+.inc-ex-container{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 10px 60px 10px 60px;
+  background-color: white;
+  /* box-shadow:  #282c34; */
+  box-shadow:  3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.form-controler{
+  display: block;
+  margin-bottom: o.5rem;
+}
+.input{
+  outline: none;
+  width: 100%;
+  padding: 5px 0px 5px 5px;
+  margin: 10px 0px 10px 0px;
+  border: none;
+  /* box-shadow: #282c34; */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+.btn{
+  width: 100%;
+  background-color: rgb(184, 160, 207);
+  border: none;
+  padding: 10px 0px 10px 0px;
+  color: white;
+}
+.btn:hover{
+  background-color: rgb(140, 118, 160);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.list{
+  list-style-type: none;
+  padding:0px;
+  margin: 0px;
+  background-color: white;
+  box-shadow:  3px 3px 10px rgba(0, 0, 0, 0.3);
+  
+
+}
+
+.minus{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 7px;
+  border: 0.5px solid rgb(194, 193, 193);
+  border-right: 3px solid red;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+.minus:hover .delete-btn{
+  opacity: 1;
+  visibility: visible;
+}
+.plus{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 7px;
+  border: 0.5px solid rgb(194, 193, 193);
+  border-right: 3px solid green;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease;
+}
+
+.plus:hover .delete-btn{
+  opacity: 1;
+  visibility: visible;
+  
+}
+
+
+
+  
+  
+  .delete-btn {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease; 
+    border: none;
+    border-radius: 3px;
+  }
+.delete-btn:hover {
+  background-color: red; /* Darker shade on hover */
+  color: white;
+  cursor: pointer;
+  /* padding: 5px 10px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.transaction-text {
+  flex: 1; /* Take up available space on the left */
+  text-align: left; /* Align text to the left */
+  
+}
+
+.transaction-amount {
+  text-align: right; /* Align amount to the right */
+  margin-right: 10px; /* Leave space for the button */
+}
+
+
+
+
+
+
+
